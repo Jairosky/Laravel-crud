@@ -69,5 +69,6 @@
   @endforeach
 </tbody>
 </table>
+{{$notas->links()}}
 
 @endsection

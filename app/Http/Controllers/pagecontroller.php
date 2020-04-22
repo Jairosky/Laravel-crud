@@ -8,7 +8,7 @@ use App;
 class pagecontroller extends Controller
 {
     public function laravel(){
-        $notas = App\Nota::all();
+        $notas = App\Nota::paginate(3);
         return view('welcome',compact('notas'));
     }
 

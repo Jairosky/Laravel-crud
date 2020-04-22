@@ -1,0 +1,2 @@
+php artisan serve : iniciar laravel
+php artisan migrate : migrar base de datos
